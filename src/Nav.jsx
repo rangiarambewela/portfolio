@@ -24,22 +24,26 @@ function Nav() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link" aria-current="page">
+                <Link to="/portfolio/" className="nav-link" aria-current="page">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/experience" className="nav-link ">
+                <Link to="/portfolio/experience" className="nav-link ">
                   Experience
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about" className="nav-link" aria-current="page">
+                <Link
+                  to="/portfolio/about"
+                  className="nav-link"
+                  aria-current="page"
+                >
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+                <Link to="/portfolio/contact" className="nav-link">
                   Contact
                 </Link>
               </li>
