@@ -1,0 +1,31 @@
+.home {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.intro {
+  color: #f4f3ee;
+  font-size: 1rem;
+}
+.home-description {
+  color: rgba(70, 63, 58, 0.5);
+  font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 4rem;
+  }
+
+  .home-description {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+}

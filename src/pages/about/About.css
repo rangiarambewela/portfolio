@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  .about {
+    height: 90%;
+  }
+}
+
+.about-title {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+@media (min-width: 992px) {
+  .about-title {
+    font-size: 60px;
+    line-height: 120px;
+    font-weight: 500px;
+  }
+}
+
+.description {
+  background-color: #d8d6d0;
+}

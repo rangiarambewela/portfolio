@@ -1,0 +1,16 @@
+.projects {
+  background-color: #b7b7a4;
+  min-height: 100vh;
+}
+
+.tab {
+  all: unset;
+  width: 100px;
+  background-color: #b7b7a4;
+  border: 1px solid #d8d6d0;
+  border-radius: 10px;
+}
+
+.chosen {
+  background-color: #d8d6d0;
+}

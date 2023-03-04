@@ -1,0 +1,47 @@
+.contact {
+  height: 90%;
+}
+
+.icon {
+  width: 60px;
+}
+
+.contact-info {
+  row-gap: 32px;
+}
+
+.contact-text {
+  color: #463f3a;
+}
+
+.desktop-view {
+  padding: 64px;
+  height: 93%;
+  min-height: 90vh;
+  column-gap: 10rem;
+}
+.desktop-title {
+  background-color: #d8d6d0;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+@media (min-width: 992px) {
+  .contact-title {
+    font-size: 60px;
+    line-height: 108px;
+    font-weight: 200 !important;
+  }
+
+  .contact-text {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1145px) {
+  .desktop-view {
+    column-gap: 4.5rem;
+  }
+}
