@@ -12,6 +12,13 @@ function WorkExperience() {
             @ Stan
           </span>
         </h5>
+        <p className="stan-description">
+          A start-up a start-up building an all-in-one platform for creators to
+          sell digital products in an online storefront. By offering a
+          user-friendly solution, Stan enables creators to monetize their
+          audience with ease, providing a seamless experience for both them and
+          their audience.
+        </p>
         <p className="text-sm"> May 2022 - August 2022 (4 Months)</p>
         <div className="px-3">
           <div className="d-flex align-items-start">

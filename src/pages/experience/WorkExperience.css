@@ -6,3 +6,9 @@
   width: 10px;
   padding-top: 6px;
 }
+
+.stan-description {
+  color: #8a817c;
+  font-style: italic;
+  font-size: 0.9rem;
+}
