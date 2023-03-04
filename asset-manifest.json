@@ -1,13 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f3762327.css",
-    "main.js": "/portfolio/static/js/main.dd3ea587.js",
+    "main.js": "/portfolio/static/js/main.e5138dd0.js",
+    "static/media/RezReview_home.png": "/portfolio/static/media/RezReview_home.8796b38a18f023e9131d.png",
+    "static/media/linkedin2.png": "/portfolio/static/media/linkedin2.cd4ca289c338e67555ab.png",
+    "static/media/Screen Shot 2022-02-13 at 11.59.48 PM.png": "/portfolio/static/media/Screen Shot 2022-02-13 at 11.59.48 PM.c20da1644a9997551567.png",
+    "static/media/PM_dashboard.png": "/portfolio/static/media/PM_dashboard.b7e4cd5f89e6981d1087.png",
+    "static/media/PM_login.png": "/portfolio/static/media/PM_login.ae6630136b9e62680d3f.png",
+    "static/media/Rangi_Arambewela.pdf": "/portfolio/static/media/Rangi_Arambewela.963f5f63b47c2b1a3c6a.pdf",
+    "static/media/mail-icon.svg": "/portfolio/static/media/mail-icon.1bff44be09f3d15d5543bc9afe5a1b8c.svg",
+    "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.9d4442a48f81993935ff0d1bbb3d22b1.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/resume-icon.svg": "/portfolio/static/media/resume-icon.092a40d3674376d9b37627f237d88c51.svg",
+    "static/media/triangle.svg": "/portfolio/static/media/triangle.3e82caf0dab60096f31249c2c4b7e1de.svg",
+    "static/media/triangle-white.svg": "/portfolio/static/media/triangle-white.1929b7bee659c60e67817efb8297b1f5.svg",
     "main.f3762327.css.map": "/portfolio/static/css/main.f3762327.css.map",
-    "main.dd3ea587.js.map": "/portfolio/static/js/main.dd3ea587.js.map"
+    "main.e5138dd0.js.map": "/portfolio/static/js/main.e5138dd0.js.map"
   },
   "entrypoints": [
     "static/css/main.f3762327.css",
-    "static/js/main.dd3ea587.js"
+    "static/js/main.e5138dd0.js"
   ]
 }
