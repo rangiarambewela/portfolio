@@ -1,4 +1,8 @@
 import "./RezReview.css";
+import triangleWhite from "../../images/triangle-white.svg";
+import RezReviewHome from "../../images/RezReview_home.png";
+import RezReview1 from "../../images/Screen Shot 2022-02-13 at 11.59.48 PM.png";
+import RezReview2 from "../../images/Screen Shot 2022-02-13 at 11.59.48 PM.png";
 
 function RezReview() {
   return (
@@ -25,27 +29,27 @@ function RezReview() {
         </div>
         <div class="mt-3 ps-3">
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Built an Express-based web application using ExpressJS and NodeJS
               to set up servers and establish routing
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Implemented CRUD operations using RESTful API to parse HTTP
               requests and generate responses
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Managed user data and listing reviews using MongoDB
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Created a login system using Passport (middleware for Node.js) to
               accomplish user authentication
@@ -63,25 +67,17 @@ function RezReview() {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="d-flex align-items-center">
-                <img src="RezReview_home.png" class="d-block w-100" alt="..." />
+                <img src={RezReviewHome} class="d-block w-100" alt="..." />
               </div>
             </div>
             <div class="carousel-item">
               <div class="d-flex align-items-center">
-                <img
-                  src="Screen Shot 2022-02-13 at 11.59.48 PM.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                <img src={RezReview1} class="d-block w-100" alt="..." />
               </div>
             </div>
             <div class="carousel-item">
               <div class="d-flex align-items-center">
-                <img
-                  src="Screen Shot 2022-02-13 at 11.57.53 PM.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                <img src={RezReview2} class="d-block w-100" alt="..." />
               </div>
             </div>
           </div>

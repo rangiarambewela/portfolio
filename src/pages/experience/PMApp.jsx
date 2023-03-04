@@ -1,3 +1,7 @@
+import triangleWhite from "../../images/triangle-white.svg";
+import pmLogin from "../../images/PM_login.png";
+import pmDashboard from "../../images/PM_dashboard.png";
+
 function PMApp() {
   return (
     <div class="row align-items-center justify-content-between project">
@@ -11,7 +15,7 @@ function PMApp() {
         </p>
         <div class="mt-3 ps-3">
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Developed an object-oriented dashboard using Qt (C++) with custom
               input forms and validation, an interactive calendar, and to-do
@@ -19,14 +23,14 @@ function PMApp() {
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Implemented the singleton design pattern for single-point access
               to user information within the application
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle-white.svg" className="bullet-point" />
+            <img src={triangleWhite} className="bullet-point" />
             <p className="pb-3 d-block px-3 text-white">
               Designed a normalized database schema in SQLite to store user and
               task metadata
@@ -44,12 +48,12 @@ function PMApp() {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="d-flex align-items-center">
-                <img src="PM_login.png" class="d-block w-100" alt="..." />
+                <img src={pmLogin} class="d-block w-100" alt="..." />
               </div>
             </div>
             <div class="carousel-item">
               <div class="d-flex align-items-center">
-                <img src="PM_dashboard.png" class="d-block w-100" alt="..." />
+                <img src={pmDashboard} class="d-block w-100" alt="..." />
               </div>
             </div>
           </div>

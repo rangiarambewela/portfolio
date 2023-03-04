@@ -1,4 +1,5 @@
 import "./About.css";
+import profilepic from "../../images/linkedin2.png";
 
 function About() {
   const paragraph1 =
@@ -8,7 +9,7 @@ function About() {
   return (
     <div className="about px-5 d-flex align-items-center justify-content-center flex-column flex-lg-row py-3 py-md-0">
       <div className="col-lg-7 px-0 col-sm-10">
-        <img className="img-fluid" src="linkedin2.png" />
+        <img className="img-fluid" src={profilepic} />
       </div>
       <div className="col-lg-5 col-sm-10 px-0 py-3 py-lg-5 description d-flex flex-column align-items-center">
         <h2 className="mb-0 about-title">About Me</h2>

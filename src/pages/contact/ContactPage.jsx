@@ -1,4 +1,8 @@
 import "./Contact.css";
+import linkedinIcon from "../../images/linkedin-icon.svg";
+import mailIcon from "../../images/mail-icon.svg";
+import resumeIcon from "../../images/resume-icon.svg";
+import resume from "../../documents/Rangi_Arambewela.pdf";
 
 function Contact() {
   return (
@@ -11,7 +15,7 @@ function Contact() {
             href="https://www.linkedin.com/in/rangi-arambewela/"
             target="_blank"
           >
-            <img className="icon col-auto px-0" src="linkedin-icon.svg" />
+            <img className="icon col-auto px-0" src={linkedinIcon} />
             <span className="ps-3 contact-text">View Profile</span>
           </a>
 
@@ -19,7 +23,7 @@ function Contact() {
             className=" d-flex align-items-center mb-0 text-decoration-none contact-text"
             href="mailto: rangiarambewelaa@gmail.com"
           >
-            <img className="icon col-auto px-0" src="mail-icon.svg" />
+            <img className="icon col-auto px-0" src={mailIcon} />
             <span className="ps-3  contact-texttext-break">
               rangiarambewelaa@gmail.com
             </span>
@@ -27,10 +31,10 @@ function Contact() {
 
           <a
             className=" d-flex align-items-center mb-0 text-decoration-none contact-text"
-            href="Rangi_Arambewela.pdf"
+            href={resume}
             target="_blank"
           >
-            <img className="icon col-auto px-0" src="resume-icon.svg" />
+            <img className="icon col-auto px-0" src={resumeIcon} />
             <span className="ps-3 contact-text">View Resume</span>
           </a>
         </div>
@@ -47,7 +51,7 @@ function Contact() {
             href="https://www.linkedin.com/in/rangi-arambewela/"
             target="_blank"
           >
-            <img className="icon col-auto px-0" src="linkedin-icon.svg" />
+            <img className="icon col-auto px-0" src={linkedinIcon} />
             <span className="ps-3">View Profile</span>
           </a>
 
@@ -55,7 +59,7 @@ function Contact() {
             className=" d-flex align-items-center mb-0 text-decoration-none contact-text"
             href="mailto: rangiarambewelaa@gmail.com"
           >
-            <img className="icon col-auto px-0" src="mail-icon.svg" />
+            <img className="icon col-auto px-0" src={mailIcon} />
             <span className="ps-3 text-break">rangiarambewelaa@gmail.com</span>
           </a>
 
@@ -64,7 +68,7 @@ function Contact() {
             href="Rangi_Arambewela.pdf"
             target="_blank"
           >
-            <img className="icon col-auto px-0" src="resume-icon.svg" />
+            <img className="icon col-auto px-0" src={resumeIcon} />
             <span className="ps-3">View Resume</span>
           </a>
         </div>

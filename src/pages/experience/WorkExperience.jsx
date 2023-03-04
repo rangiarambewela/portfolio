@@ -1,4 +1,5 @@
 import "./WorkExperience.css";
+import triangle from "../../images/triangle.svg";
 
 function WorkExperience() {
   return (
@@ -14,7 +15,7 @@ function WorkExperience() {
         <p className="text-sm"> May 2022 - August 2022 (4 Months)</p>
         <div className="px-3">
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Implemented responsive layouts and interactive components on
               multiple pages using Vue.js and Bootstrap to improve user
@@ -22,14 +23,14 @@ function WorkExperience() {
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Built reusable and modular front-end components for multiple web
               app features using Vue.js
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Led development of main landing page using HTML, CSS, Bootstrap,
               and JavaScript to increase customer conversion rate (see first
@@ -37,7 +38,7 @@ function WorkExperience() {
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Collaborated with cross-functional teams, including UX/UI
               designers, business, and engineering teams, to finalize features
@@ -45,7 +46,7 @@ function WorkExperience() {
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Launched a feature for managing subscriber payments using Flask,
               Stripe API and webhooks to synchronize Stripe data with Stan’s
@@ -53,7 +54,7 @@ function WorkExperience() {
             </p>
           </div>
           <div className="d-flex align-items-start">
-            <img src="triangle.svg" className="bullet-point" />
+            <img src={triangle} className="bullet-point" />
             <p className="pb-3 d-block px-3">
               Participated in weekly sprints and rigorous code review with the
               engineering team using Git, Bitbucket and Jira
