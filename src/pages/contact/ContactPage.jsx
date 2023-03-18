@@ -31,7 +31,7 @@ function Contact() {
 
           <a
             className=" d-flex align-items-center mb-0 text-decoration-none contact-text"
-            href={resume}
+            href="Rangi_Arambewela.pdf"
             target="_blank"
           >
             <img className="icon col-auto px-0" src={resumeIcon} />
